@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Štefková, Riegerova
 #b
 aktivita1 = input("zadejte aktivitu jedna: ")
@@ -29,7 +28,6 @@ if rozdil > 0:
 elif rozdil < 0:
     print(f"Nedostatek: {-rozdil:.1f} kcal")
 else:
-=======
 #Štefková, Riegerova
 #b
 aktivita1 = input("zadejte aktivitu jedna: ")
@@ -60,5 +58,4 @@ if rozdil > 0:
 elif rozdil < 0:
     print(f"Nedostatek: {-rozdil:.1f} kcal")
 else:
->>>>>>> db7e84bd23d61ace5d43f3a3dbd865a120023721
     print("Kalorická bilance je vyrovnaná")
