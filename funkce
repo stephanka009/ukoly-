@@ -1,0 +1,29 @@
+#ukol2
+def pozdravUzivatele():
+    jmeno = input("Zadejte vase jmeno: ")
+    print("ahoj,", jmeno)
+pozdravUzivatele()
+
+#ukol3
+def prumerZnamek():
+    znamky = [1,2,1,4,5,3]
+    prumer = sum(znamky) / len(znamky)
+    print("Průměr znamek je: ", prumer)
+prumerZnamek()
+
+#ukol4
+def pozdrav():
+    for i in range (5):
+        print("Ahoj")
+pozdrav()
+
+#ukol bonus 
+def zvirata ():
+    zvirata = []
+    zvirata.append("pes")
+    zvirata.append ("kocka")
+    zvirata.append("koala")
+
+    print("Zvirata v poli: ", zvirata )
+    print("v poli je : ", len(zvirata))
+zvirata()
